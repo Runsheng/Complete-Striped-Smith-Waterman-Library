@@ -23,7 +23,7 @@ from time import time
 import gzip
 
 #~~~~~~~MAIN FUNCTION~~~~~~~#
-def main (opt):
+def align (opt):
 
     print ("Inport subject sequence")
     # Import fasta subject
@@ -272,4 +272,4 @@ if __name__ == '__main__':
     # Parse command line arguments
     opt = optparser()
     # Run the main function
-    main(opt)
+    align(opt)
